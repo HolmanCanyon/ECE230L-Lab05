@@ -5,6 +5,6 @@ module circuit_b(
 
     assign Y = (~C & ~D) +
         (A & B) +
-        (B & C & ~D);
+        (B & ~D);
 
 endmodule
