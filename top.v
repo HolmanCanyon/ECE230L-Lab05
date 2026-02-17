@@ -11,7 +11,7 @@ module top(
     );
 
     circuit_b b_inst(
-        .A(led[0]),
+        .A(a_inst.Y),
         .B(sw[4]),
         .C(sw[5]),
         .D(sw[6]),
