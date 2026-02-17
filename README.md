@@ -19,7 +19,7 @@ Canyon Holman, Cody Toone
 
 ## Lab Summary
 
-In this lab we reinforced our knowledge with producing simplified equations from KMaps, and then learned how to connect two different modules together within vivado. We got more in depth with creating our own module files, top file, and editing the constraints file in comparison to previous labs where they were provided for us.
+In this lab we reinforced our knowledge with producing simplified equations from KMaps, and then learned how to connect two different equation modules together within vivado. We got more in depth with creating our own module files, top file, and editing the constraints file in comparison to previous labs where they were provided for us.
 
 ## Lab Questions
 
