@@ -12,7 +12,7 @@ module top(
         .Y(a_out)
     );
 
-    assign led[0] = a_out
+    assign led[0] = a_out;
 
     circuit_b b_inst(
         .A(a_out),
