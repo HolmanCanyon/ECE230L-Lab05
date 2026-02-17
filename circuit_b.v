@@ -3,8 +3,8 @@ module circuit_b(
     output Y
 );
 
-    assign Y = (~C & ~D) +
-        (A & B) +
+    assign Y = (~C & ~D) |
+        (A & B) |
         (B & ~D);
 
 endmodule
