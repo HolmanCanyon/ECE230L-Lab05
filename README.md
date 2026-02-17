@@ -20,8 +20,10 @@ the constraints file maps your inputs and outputs to real pins on the FPGA.
 ## Lab Questions
 
 ### 1 - Explain the role of the Top Level file.
+The top level file is the entry point that instantiates all the modules and specifies connections between them. Vivado will start the synthesis from the top file.
 
 ### 2 - Explain the function of the Constraints file.
+It connects the FPGA pins on the board to our specified switches or leds and sets voltage standards
 
 ### 3 - Was the selection of Minterm and Maxterm correct for each circuit? What would you have chosen?
-
+The selection of minterm was correct for circuit B, however it would have been much more efficient to use minterms for circuit A as well, rather than Maxterms
